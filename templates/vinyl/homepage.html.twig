@@ -1,0 +1,16 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Vinyl Homepage | {{ parent() }}{% endblock %}
+
+{% block body %}
+    <h1>{{ title }}</h1>
+
+    <div>
+        Our sweet track list:
+        <ul>
+            {% for track in tracks %}
+                <li>{{ track.song }} - {{ track.artist }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+{% endblock %}
