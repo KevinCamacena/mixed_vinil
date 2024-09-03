@@ -13,13 +13,13 @@ class VinylController extends AbstractController
     public function homepage(): Response
     {
         $tracks = [
-            ['song' => "Gansgta's Paradise", 'artist' => 'Coolio'],
-            ['song' => "Smells Like Teen Spirit", 'artist' => 'Nirvana'],
-            ['song' => "The Sign", 'artist' => 'Ace of Base'],
-            ['song' => "No Diggity", 'artist' => 'Blackstreet'],
-            ['song' => "I Want It That Way", 'artist' => 'Back'],
-            ['song' => "Say My Name", 'artist' => "Destiny's Child"],
-            ['song' => "I Will Always Love You", 'artist' => 'Whitney Houston'],
+            ['id' => 1, 'song' => "Gansgta's Paradise", 'artist' => 'Coolio'],
+            ['id' => 2, 'song' => "Smells Like Teen Spirit", 'artist' => 'Nirvana'],
+            ['id' => 3, 'song' => "The Sign", 'artist' => 'Ace of Base'],
+            ['id' => 4, 'song' => "No Diggity", 'artist' => 'Blackstreet'],
+            ['id' => 5, 'song' => "I Want It That Way", 'artist' => 'Back'],
+            ['id' => 6, 'song' => "Say My Name", 'artist' => "Destiny's Child"],
+            ['id' => 7, 'song' => "I Will Always Love You", 'artist' => 'Whitney Houston'],
 
         ];
 
