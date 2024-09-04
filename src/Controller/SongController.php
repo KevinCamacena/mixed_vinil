@@ -20,7 +20,6 @@ class SongController extends AbstractController
             'artist' => 'Coolio',
             'genre' => 'Hip Hop',
             'year' => 1995,
-            //'url' => 'https://www.youtube.com/watch?v=fPO76Jlnz6c',
             'url' => 'https://symfonycasts.s3.amazonaws.com/sample.mp3',
         ];
 
