@@ -2,6 +2,7 @@
 
 namespace App\Controller;
 
+use Knp\Bundle\TimeBundle\DateTimeFormatter;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
@@ -34,6 +35,7 @@ class VinylController extends AbstractController
     {
         $genre = $slug ? u(str_replace('-', ' ', $slug))->title(true) : null;
         $mixes = $this->getMixes();
+
         return $this->render('vinyl/browse.html.twig', [
             'genre' => $genre,
             'mixes' => $mixes,
