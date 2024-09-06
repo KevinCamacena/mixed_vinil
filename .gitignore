@@ -17,6 +17,7 @@ yarn-error.log
 ###< symfony/webpack-encore-bundle ###
 
 ###< Other config
+
 .env
 .idea/
 
